@@ -30,7 +30,7 @@ namespace Natan.LojaVirtual.Web.HtmlHelpers
               tag.AddCssClass("btn btn-default");
               resultado.Append(tag);
           }
-
+            
           return MvcHtmlString.Create(resultado.ToString());
         }
 
